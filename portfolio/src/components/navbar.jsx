@@ -14,9 +14,9 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="w-full bg-[#1B1B1B] py-5 flex justify-between items-center max-w-5xl mx-auto rounded-b-xl">
-      <nav className="text-[#9C9C9C] w-full px-25 flex justify-between items-center max-w-5xl">
-        <ul className="flex space-x-10 text-sm uppercase tracking-wide">
+    <header className="w-full bg-nav-background py-5 flex justify-between items-center max-w-5xl mx-auto rounded-b-xl">
+      <nav className=" text-text w-full px-25 flex justify-between items-center max-w-5xl">
+        <ul className="flex space-x-10 text-sm capitalize tracking-wide">
           {navItems.map((item) => (
             <li key={item.path}>
               <Link
@@ -30,7 +30,7 @@ export default function Navbar() {
           ))}
         </ul>
 
-        <div className="flex space-x-6 text-gray-500 text-sm">
+        <div className="flex space-x-6 text-sm">
           <Link
             href="https://www.linkedin.com"
             className="hover:text-[#62BA1B] transition hover:scale-110 transform duration-200"
