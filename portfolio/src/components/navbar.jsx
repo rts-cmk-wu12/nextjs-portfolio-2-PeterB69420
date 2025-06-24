@@ -1,4 +1,4 @@
-'use client'; // Needed if you're using App Router
+'use client';
 
 import { FaLinkedinIn, FaBehance, FaTwitter } from "react-icons/fa";
 import Link from 'next/link';
