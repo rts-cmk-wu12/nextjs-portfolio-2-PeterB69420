@@ -5,7 +5,7 @@ import Navbar from "@/components/navbar";
 
 export default function Home() {
   return (
-    <main className="bg-black text-gray-300 min-h-screen flex flex-col">
+    <main className="bg-background text-text min-h-screen flex flex-col">
       <Navbar />
       <Hero />
       <Footer />
