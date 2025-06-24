@@ -14,7 +14,7 @@ export default function Contact() {
                 </p>
                 <form className=" p-8 rounded-lg shadow-lg max-w-md w-full mb-10">
                     <div>
-                        <label className="block text-sm font-bold mb-2 text-white" htmlFor="email">
+                        <label className="block text-sm font-bold mb-2 text-white">
                             Email
                         </label>
                         <input
@@ -27,7 +27,7 @@ export default function Contact() {
                     </div>
 
                     <div>
-                        <label className="block text-sm font-bold mb-2 text-white" htmlFor="mobile">
+                        <label className="block text-sm font-bold mb-2 text-white">
                             Mobile
                         </label>
                         <input
@@ -40,7 +40,7 @@ export default function Contact() {
                     </div>
 
                     <div>
-                        <label className="block text-sm font-bold mb-1 text-white" htmlFor="message">
+                        <label className="block text-sm font-bold mb-1 text-white">
                             Message
                         </label>
                         <textarea
@@ -54,7 +54,7 @@ export default function Contact() {
                     <div className="pt-4">
                         <button
                             type="submit"
-                            className="w-full capitalize bg-[#62BA1B] hover:bg-[#3F8E00] text-heading font-bold py-3 rounded shadow-lg shadow-lime-500/20 transition-all duration-300 cursor-pointer"
+                            className="w-full capitalize bg-active hover:bg-[#3F8E00] text-heading font-bold py-3 rounded shadow-lg shadow-lime-500/20 transition-all duration-300 cursor-pointer"
                         >
                             send &gt;
                         </button>

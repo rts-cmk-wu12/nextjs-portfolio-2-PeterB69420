@@ -21,7 +21,7 @@ export default function Navbar() {
             <li key={item.path}>
               <Link
                 href={item.path}
-                className={`transition-colors duration-200 cursor-pointer hover:text-[#62BA1B] ${pathname === item.path ? 'text-[#62BA1B]' : ''
+                className={`transition-colors duration-200 cursor-pointer hover:text-active ${pathname === item.path ? 'text-[#62BA1B]' : ''
                   }`}
               >
                 {item.name}
@@ -33,19 +33,19 @@ export default function Navbar() {
         <div className="flex space-x-6 text-sm">
           <Link
             href="https://www.linkedin.com"
-            className="hover:text-[#62BA1B] transition hover:scale-110 transform duration-200"
+            className="hover:text-active transition hover:scale-110 transform duration-200"
           >
             <FaLinkedinIn />
           </Link>
           <Link
             href="https://www.behance.net"
-            className="hover:text-[#62BA1B] transition hover:scale-110 transform duration-200"
+            className="hover:text-active transition hover:scale-110 transform duration-200"
           >
             <FaBehance />
           </Link>
           <Link
             href="https://twitter.com"
-            className="hover:text-[#62BA1B] transition hover:scale-110 transform duration-200"
+            className="hover:text-active transition hover:scale-110 transform duration-200"
           >
             <FaTwitter />
           </Link>

@@ -11,7 +11,7 @@ export default function Hero() {
                     <p className=" mb-6">
                         Hej, jeg hedder Jonas og er studerende på Center for Medie og Kommunikation (CMK) på Roskilde Tekniske Skole. Jeg brænder for webudvikling og digitalt design, og jeg udforsker hele tiden nye værktøjer og teknologier for at udvikle mine færdigheder.
                     </p>
-                    <Link className="bg-[#62BA1B] hover:bg-[#3F8E00] text-heading font-bold px-7 py-4 rounded shadow-lg shadow-lime-500/20 transition-all duration-300 capitalize cursor-pointer" href="/contact" style={{ width: '259.89px', display: 'inline-block', textAlign: 'center' }}>
+                    <Link className="bg-active hover:bg-[#3F8E00] text-heading font-bold px-7 py-4 rounded shadow-lg shadow-lime-500/20 transition-all duration-300 capitalize cursor-pointer" href="/contact" style={{ width: '259.89px', display: 'inline-block', textAlign: 'center' }}>
                         kontakt mig &gt;
                     </Link>
                 </div>
