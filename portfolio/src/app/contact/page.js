@@ -7,7 +7,7 @@ export default function Contact() {
             <Navbar />
             <section className="flex flex-col items-center">
                 <h2 className="text-white text-center m-8 text-3xl font-bold">Get In Touch</h2>
-                <p className="text-gray-400 text-center max-w-2xl mx-auto">
+                <p className="text-[#9C9C9C] text-center max-w-2xl mx-auto">
                     Tak fordi du kiggede forbi!
                     Hvis du leder efter en motiveret og detaljeorienteret webudvikler med interesse for front-end og responsivt design, så vil jeg meget gerne høre fra dig.
                     Uanset om det handler om et projekt, en praktikplads eller en uformel snak, er du velkommen til at kontakte mig. Jeg er altid åben for nye muligheder og udvikling.
