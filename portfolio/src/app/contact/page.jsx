@@ -6,7 +6,7 @@ export default function Contact() {
         <main className="bg-background min-h-screen">
             <Navbar />
             <section className="flex flex-col items-center">
-                <h2 className="text-heading text-center m-8 text-4xl font-bold  ">Get In Touch</h2>
+                <h2 className="text-heading text-center m-8 text-4xl font-bold capitalize ">kontakt mig</h2>
                 <p className="text-text text-center max-w-2xl mx-auto">
                     Tak fordi du kiggede forbi!
                     Hvis du leder efter en motiveret og detaljeorienteret webudvikler med interesse for front-end og responsivt design, så vil jeg meget gerne høre fra dig.
@@ -54,9 +54,9 @@ export default function Contact() {
                     <div className="pt-4">
                         <button
                             type="submit"
-                            className="w-full bg-[#62BA1B] hover:bg-[#3F8E00] text-heading font-bold py-3 rounded shadow-lg shadow-lime-500/20 transition-all duration-300 cursor-pointer"
+                            className="w-full capitalize bg-[#62BA1B] hover:bg-[#3F8E00] text-heading font-bold py-3 rounded shadow-lg shadow-lime-500/20 transition-all duration-300 cursor-pointer"
                         >
-                            Submit &gt;
+                            send &gt;
                         </button>
                     </div>
                 </form>

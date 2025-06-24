@@ -6,7 +6,7 @@ export default function About() {
         <main className="bg-background min-h-screen">
             <Navbar />
             <section>
-                <h2 className=" text-heading text-center m-8 text-4xl font-bold ">About Me</h2>
+                <h2 className=" text-heading text-center m-8 text-4xl font-bold capitalize ">om mig</h2>
                 <p className=" text-text text-left max-w-2xl mx-auto mb-8">
                     Jeg hedder Jonas og studerer webudvikling med fokus på front-end og digitalt design. Det, der driver mig, er glæden ved at skabe websites, der ikke bare ser godt ud, men også føles rigtige at bruge. Jeg arbejder primært med HTML, CSS og JavaScript, og jeg er begyndt at udforske React, Tailwind CSS og Figma for at udvide mine kompetencer.
                 </p>
